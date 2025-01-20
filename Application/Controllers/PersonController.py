@@ -13,15 +13,18 @@ class PersonController:
     def setup_controller(app):
         @app.route('/Person/Person', methods=['POST'])
         def register_person():
+            print("Entrou no register_person")
             try:
                 connection = ConnectionService.open_connection()
                 cursor = connection.cursor()
                 connection.start_transaction()
 
                 try:
+                    print("Conectou com tudo")
                     person_request = request.get_json()
                     person_request = PersonRequestModel(person_request)
-
+                    print("person_request")
+                    print(person_request)
                     validations = ValidationService.validate_register_person(person_request, cursor)
                     if validations.is_valid is False:
                         return jsonify(ErrorResponseModel(Errors=validations.errors).dict()), 422
