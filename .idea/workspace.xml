@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b73d1b5-0126-404d-b803-d98de7c454f1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/api-back-afropunk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/api-back-afropunk.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Configuration.py" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Configuration.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Controllers/PersonController.py" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Controllers/PersonController.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Application/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Services/SqsService.py" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Services/SqsService.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +41,7 @@
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/ferna/Downloads/conect-hostinger-and-printer/conect-hostinger-and-printer",
+    "last_opened_file_path": "C:/Users/ferna/Documents/GitHub/Back-Galeria",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
@@ -82,7 +78,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-48aec45f0201-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17011.127" />
+        <option value="bundled-python-sdk-0e3be3396995-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23339.19" />
       </set>
     </attachedChunks>
   </component>
@@ -102,7 +98,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Services/Services/ImageService.py</url>
-          <line>22</line>
+          <line>29</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
